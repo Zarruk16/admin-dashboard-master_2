@@ -1,0 +1,16 @@
+.base_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.content {
+  flex: 1;
+}
+.container {
+  padding: 30px;
+}
+.routes {
+  flex: 1;
+  overflow-y: auto;
+  padding-top: 0px;
+}

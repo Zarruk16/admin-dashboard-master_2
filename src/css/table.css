@@ -1,0 +1,27 @@
+.table {
+  padding: 32px;
+}
+.table .input_container {
+  width: 40%;
+  height: 32px;
+}
+.table .input_container span {
+  top: 5px;
+}
+.table .input_container input {
+  z-index: 2;
+}
+.row {
+  margin-bottom: 10px;
+  height: 50px;
+}
+.row .row-item {
+  flex: 1;
+  cursor: pointer;
+}
+.row:hover {
+  border-bottom: 1px solid var(--charcoal-shades-1);
+}
+.table-footer {
+  padding: 20px;
+}

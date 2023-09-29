@@ -1,0 +1,35 @@
+header {
+  height: 100px;
+}
+.user-info {
+  height: 60px;
+  padding: 12px;
+  margin-left: auto;
+}
+.info h2 {
+  font-size: 14px;
+}
+.info {
+  padding: 0px 30px;
+  border-left: 1px solid var(--blue-shades-2);
+  margin-left: 15px;
+}
+.info span {
+  font-size: 10px;
+}
+header .back {
+  margin-right: 20px;
+}
+.back {
+  padding: 0px 20px;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+  margin-left: -30px;
+}
+.user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
